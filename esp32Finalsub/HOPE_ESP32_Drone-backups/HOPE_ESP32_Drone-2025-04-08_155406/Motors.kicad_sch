@@ -1,0 +1,2980 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "18cbbdee-947a-4c1a-9d17-31315d69380f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Driver_Motor:DRV8833PW"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV8833PW"
+				(at -3.81 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 5.08 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
+				(at 5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "H-bridge motor driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP-16*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8833PW_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DRV8833PW_1_1"
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "~{SLEEP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "AISEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "BISEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "BIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "BIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 17.78 270)
+					(length 5.08)
+					(name "VINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 17.78 270)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "AOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "AOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "BOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "BOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Motor_DC"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_DC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.7272) (xy 0 2.0828)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.7752) (xy 0 -5.1816)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "RDS(ON) increases with temperature, so as the device heats, the power dissipation increases. This must be taken\ninto consideration when sizing the heatsink."
+		(exclude_from_sim no)
+		(at 138.938 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9bfcfa6-3b82-4cc0-b109-6909f043979a")
+	)
+	(text "has high rds on resulting in high power loss, heat sinks will be needed\nwill look for something more efficient\n"
+		(exclude_from_sim no)
+		(at 137.414 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c25a3ff2-1f65-47a2-a5ba-816c2d6b4c22")
+	)
+	(text "Need motor drivers because max source current of esp32s3 pin is 40mA, not enough\nto drive each motor. Will damage gpios if connected directly. \nSolution: motor driver using mosfet https://www.youtube.com/watch?v=xW2Nwg_RX84"
+		(exclude_from_sim no)
+		(at 95.25 157.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcfab5cd-fc37-4419-90f9-ceff4df2853c")
+	)
+	(junction
+		(at 83.82 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01042c64-c96d-410b-baad-73d2a3ec6534")
+	)
+	(junction
+		(at 83.82 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f97c6d3-a34c-4691-b534-0d0527b5275c")
+	)
+	(junction
+		(at 190.5 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37254a12-d1dd-444f-9822-cfcd32565d1e")
+	)
+	(junction
+		(at 83.82 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "765bbc04-0a37-4ab7-8236-1ac277b8ef80")
+	)
+	(junction
+		(at 190.5 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83256fb0-4f02-4669-8df3-7a00bd5adaeb")
+	)
+	(junction
+		(at 198.12 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863307ea-560e-4ae0-a2d9-f53ffdfe6295")
+	)
+	(junction
+		(at 190.5 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d2862b-5eb3-46f4-bfd5-314659d7e739")
+	)
+	(junction
+		(at 91.44 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f3d0e8-d363-4d33-9ffc-c9589f7bf579")
+	)
+	(wire
+		(pts
+			(xy 181.61 146.05) (xy 190.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fd3040-1bce-4566-bb32-91ca1276a50b")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06eeb97d-dbde-412f-8e1e-f320f2692d94")
+	)
+	(wire
+		(pts
+			(xy 67.31 83.82) (xy 57.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f4e8bc-4051-4578-94d0-7eac1e312513")
+	)
+	(wire
+		(pts
+			(xy 53.34 100.33) (xy 53.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0711ee40-a6fe-43ca-9558-6bf511de218b")
+	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09359105-494f-4199-84f6-0c18fb9f46ba")
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d25d5ba-1184-4fdc-a2e0-f2cd4255395a")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 83.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10228b2d-1f82-4ff5-ad20-7f346782b5b7")
+	)
+	(wire
+		(pts
+			(xy 156.21 146.05) (xy 173.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247bdfb8-f46b-4d2a-b784-8e15991ff88f")
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b8e3e9-e59c-4845-ada0-7fe0fc5efff7")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6) (xy 156.21 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260b613f-df81-480c-a0c3-327e9fa82aed")
+	)
+	(wire
+		(pts
+			(xy 198.12 87.63) (xy 198.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27dcb8f2-cbf4-4bb3-a55c-27ecac963cb5")
+	)
+	(wire
+		(pts
+			(xy 68.58 100.33) (xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f5e7e4-080e-4c68-9cc9-640822e3732d")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 114.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9365c9-a6a1-4328-9a76-0b03c1094a46")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30868527-a93d-4ee9-b628-a9d15a926d99")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364c1f3a-90b3-4d4b-8434-0c15887b34f7")
+	)
+	(wire
+		(pts
+			(xy 40.64 81.28) (xy 40.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420d1211-14d9-4bcd-8890-73ef5be4aba0")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ed4834-dae8-4f10-b3ff-1ac38e60fa38")
+	)
+	(wire
+		(pts
+			(xy 72.39 83.82) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478d00ab-8a31-45f1-ad57-bd16d6a64f70")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 198.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b82e01-9877-491e-8fe2-dae87366bbbb")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4972c805-d22a-411c-b0c1-5fc41805881e")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4557ff-371f-4d16-8d66-1d5b781ef356")
+	)
+	(wire
+		(pts
+			(xy 83.82 123.19) (xy 83.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1f71bb-86a0-4b75-8e80-91874f9374bc")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 49.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51700101-1aa3-47bb-84d5-5a552fdd4ae3")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545d1715-21c4-4edd-b57b-fbef4a80406f")
+	)
+	(wire
+		(pts
+			(xy 205.74 114.3) (xy 226.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552610b6-11eb-4d32-bcc7-31503f78164f")
+	)
+	(wire
+		(pts
+			(xy 83.82 133.35) (xy 83.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579425fd-e478-4e18-9e0d-fc66a1478c43")
+	)
+	(wire
+		(pts
+			(xy 220.98 109.22) (xy 220.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fa8184-4ec8-4895-a1e2-af0d5fdd3ab8")
+	)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c2fa12-b09f-4b2e-9c9c-f5df6ef72c02")
+	)
+	(wire
+		(pts
+			(xy 205.74 116.84) (xy 220.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2d1397-e5ae-49e2-87a3-22973b1c873e")
+	)
+	(wire
+		(pts
+			(xy 40.64 120.65) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd559ba-84e9-453e-9bd6-0a5fb63635a6")
+	)
+	(wire
+		(pts
+			(xy 36.83 123.19) (xy 36.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602a26fd-2af7-45f7-b8c6-992aea9ffccc")
+	)
+	(wire
+		(pts
+			(xy 36.83 73.66) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bd59a7-f7f8-430e-870e-ae1fc7774883")
+	)
+	(wire
+		(pts
+			(xy 198.12 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7170d02f-adb9-4558-af89-b648feff5e94")
+	)
+	(wire
+		(pts
+			(xy 99.06 110.49) (xy 119.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f4ea8d-29bc-42cb-be68-35f3c5dc602e")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c06032b-1a09-4722-8941-2f54c57daa89")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 220.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6197cc-4de5-420b-8fac-97570bc991c9")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.79) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef08486-6e7a-443e-809a-3e38b80da480")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81457c1b-24a9-4a14-975d-10de29f49b2e")
+	)
+	(wire
+		(pts
+			(xy 160.02 137.16) (xy 173.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8295d644-38d2-4b9a-ba9d-26d19400c910")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866f8893-8796-41fb-afbf-0712f61abbe0")
+	)
+	(wire
+		(pts
+			(xy 190.5 137.16) (xy 190.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880052de-a0ca-4cd7-bb10-2df183f5014d")
+	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ec1325-99c0-45eb-bf6f-45cf6c6d4c0d")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 40.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbf5ec0-5742-48f5-834f-958c18e0bf36")
+	)
+	(wire
+		(pts
+			(xy 53.34 133.35) (xy 67.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9d564d-2882-4b8f-97f5-c33847118086")
+	)
+	(wire
+		(pts
+			(xy 74.93 133.35) (xy 83.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943f35e4-d7d6-49c5-b0fe-68ce1dbd1509")
+	)
+	(wire
+		(pts
+			(xy 175.26 127) (xy 143.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d41058-cb53-4b82-a59c-e63aeeaa0d83")
+	)
+	(wire
+		(pts
+			(xy 74.93 142.24) (xy 83.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fc5b76-fb34-47d4-8173-d82f155bce70")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.82) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e27388b-611f-406d-824c-8315640b7476")
+	)
+	(wire
+		(pts
+			(xy 220.98 128.27) (xy 226.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a833fa47-5235-4ca6-9f29-0009f52f95ca")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adefdcb3-6078-48b6-b85f-ea2810fd03cf")
+	)
+	(wire
+		(pts
+			(xy 57.15 95.25) (xy 68.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7406772-7f56-4e13-9b14-7930677129f4")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 36.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bdceec-9242-4b10-915d-25079a267370")
+	)
+	(wire
+		(pts
+			(xy 226.06 114.3) (xy 226.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92e53cd-e4d3-4553-a49b-400630dd14ca")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b951bee0-0c83-401c-87ea-ad9f13dd2fc6")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc08378e-1023-4fe5-ab07-d3a687f0df36")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddf0e8e-e835-4492-ace4-1c787b88b81f")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81aa3ab-7b54-4610-825f-46303d6ad805")
+	)
+	(wire
+		(pts
+			(xy 143.51 127) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9859746-6ead-4d29-8849-cff4110ee88d")
+	)
+	(wire
+		(pts
+			(xy 220.98 116.84) (xy 220.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9e3653-4cc2-4ac7-bb5d-cfd02a79e745")
+	)
+	(wire
+		(pts
+			(xy 181.61 137.16) (xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee2c2be-fad5-4ac4-b0ac-500c11212c8c")
+	)
+	(wire
+		(pts
+			(xy 143.51 77.47) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1311049-29ad-4184-92d3-e7e80d911a83")
+	)
+	(wire
+		(pts
+			(xy 57.15 83.82) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78b3848-597b-44ee-a081-46855c58f99f")
+	)
+	(wire
+		(pts
+			(xy 179.07 87.63) (xy 198.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83f638f-8586-4446-aad2-740dd5332eed")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32a0833-7336-491c-aa7c-81a5e0675781")
+	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 226.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3394e18-c980-41f3-9a58-b52265a688db")
+	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66144d2-7b17-463f-88f2-68c81ef72be5")
+	)
+	(wire
+		(pts
+			(xy 205.74 111.76) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e909fd07-ed5f-42a5-a07d-bd704df17ea9")
+	)
+	(wire
+		(pts
+			(xy 83.82 120.65) (xy 83.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc3a53f-cffb-42ce-8adb-4477b1c0255f")
+	)
+	(wire
+		(pts
+			(xy 49.53 142.24) (xy 67.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f614512d-1f6e-4a72-b90f-f310324716a7")
+	)
+	(wire
+		(pts
+			(xy 114.3 124.46) (xy 119.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc5d450c-044b-47b1-8d05-d9c2cbc93809")
+	)
+	(hierarchical_label "MOTOR4_PWM_A (BIN1)"
+		(shape input)
+		(at 175.26 114.3 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "080fd007-834a-4064-9ee8-6c5afd71599b")
+	)
+	(hierarchical_label "MOTOR3_PWM_A (AIN1)"
+		(shape input)
+		(at 175.26 109.22 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "0c4c7781-9355-439a-ad2c-ab958c414ff3")
+	)
+	(hierarchical_label "MOTOR2_PWM_B (BIN2)"
+		(shape input)
+		(at 68.58 113.03 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "2d94d32b-6bc1-44a8-b45e-4a96335b7d78")
+	)
+	(hierarchical_label "MOTOR2_PWM_A (BIN1)"
+		(shape input)
+		(at 68.58 110.49 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "784d8fb7-74b4-4550-9048-599feac15aef")
+	)
+	(hierarchical_label "MOTOR1_PWM_A (AIN1)"
+		(shape input)
+		(at 68.58 105.41 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "7eba077d-8150-44f5-8048-386b4da3ef45")
+	)
+	(hierarchical_label "MOTOR1_PWM_B (AIN2)"
+		(shape input)
+		(at 68.58 107.95 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "8572df79-7703-4f07-ba87-107cb109c603")
+	)
+	(hierarchical_label "MOTORS_FAULT"
+		(shape output)
+		(at 205.74 104.14 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "8e866b95-c30d-4f13-b7fe-5408a69b7f51")
+	)
+	(hierarchical_label "MOTORS_ENABLE "
+		(shape input)
+		(at 175.26 96.52 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "a51cd909-b70b-48df-9ed9-998ed0d004b3")
+	)
+	(hierarchical_label "MOTORS_FAULT"
+		(shape output)
+		(at 99.06 100.33 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "a6e79ba8-f31f-4844-838a-bfac73dc6407")
+	)
+	(hierarchical_label "MOTORS_ENABLE "
+		(shape input)
+		(at 68.58 92.71 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "b0a41556-4fb9-4682-b7b1-e285eacc47cd")
+	)
+	(hierarchical_label "MOTOR3_PWM_B (AIN2)"
+		(shape input)
+		(at 175.26 111.76 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "d6cc8201-bd75-4107-a530-9363720edf84")
+	)
+	(hierarchical_label "MOTOR4_PWM_B (BIN2)"
+		(shape input)
+		(at 175.26 116.84 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right)
+		)
+		(uuid "da367a39-2080-4391-9338-b298363c4a66")
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 226.06 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05d4ad66-69a3-4ce6-8a2c-efec06810fde")
+		(property "Reference" "M8"
+			(at 231.14 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 231.14 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 226.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f9f9298-a6bd-4a1c-a8f4-4577ac230ca1")
+		)
+		(pin "2"
+			(uuid "4b8f63e2-c34d-41ec-adef-22b6d9548c23")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.12 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "130b1c00-bd8d-4b53-bedb-07db9c8b9c6d")
+		(property "Reference" "C15"
+			(at 71.1263 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 71.1263 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbfed78a-ff94-4518-9ba6-38ab22e7d441")
+		)
+		(pin "1"
+			(uuid "249146a9-d048-46c6-99a6-4f27f132866c")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 226.06 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a9dd65e-17ea-441d-b992-5e7990eba728")
+		(property "Reference" "M7"
+			(at 231.14 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 231.14 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a087117-6aaa-471c-8029-1fe44257e678")
+		)
+		(pin "2"
+			(uuid "3ddcc1db-0cb3-44bc-8777-ee94c891eab4")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 71.12 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1da5584f-aaf8-4d8a-833c-ed7fd35fbdf5")
+		(property "Reference" "R25"
+			(at 71.12 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.2 ohm"
+			(at 71.12 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.374 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "710b71b5-6227-4f2b-8a5d-965abcc097fe")
+		)
+		(pin "1"
+			(uuid "92b6f6c4-e572-494b-964e-dcfbc1572b32")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ca9783e-ada8-44a9-b809-e37be62ed85c")
+		(property "Reference" "C16"
+			(at 77.4763 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 77.4763 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60d74482-bbb6-4ab7-ba16-31edb4a61cdc")
+		)
+		(pin "1"
+			(uuid "9932d404-b743-4071-a571-35a8f7f41aef")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 177.8 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d98e76b-ff1a-4c99-8a17-047b3d536f3c")
+		(property "Reference" "R27"
+			(at 177.8 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.2 ohm"
+			(at 177.8 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.054 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c367ddd-6347-47a4-8967-0137a1244822")
+		)
+		(pin "1"
+			(uuid "a2ecc5ec-3b1e-4f1d-8b10-5fd988622185")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 71.12 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5380109e-d135-4f0a-82ac-460752b4b433")
+		(property "Reference" "R16"
+			(at 71.12 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.2 ohm"
+			(at 71.12 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.374 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e43dd7-75c5-4ccb-9fff-43bb26348f33")
+		)
+		(pin "2"
+			(uuid "51a1f038-bd9d-45a7-b38d-4b239ad5bc21")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 119.38 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a445ea8-7e34-4b4a-a2aa-0ec0d85e186f")
+		(property "Reference" "M5"
+			(at 124.46 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 124.46 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5bb7770-b621-4b7b-bba2-72b76d6dcb41")
+		)
+		(pin "2"
+			(uuid "5dfc5187-a91b-4810-aff5-b250df9b32e1")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 119.38 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72149298-de32-480a-87a9-a85d66e257fe")
+		(property "Reference" "M6"
+			(at 124.46 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 124.46 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9f65094-0666-4374-9e70-af0add8a42bd")
+		)
+		(pin "2"
+			(uuid "2a1a1e1b-0156-444f-b72f-8526a795c12f")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 177.8 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90436770-2251-44ba-9e0b-96503cf94dd8")
+		(property "Reference" "C18"
+			(at 177.8063 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 177.8063 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "092a72a7-551c-40c0-8132-043b77a9c16a")
+		)
+		(pin "1"
+			(uuid "1ed1580b-9a31-4584-ad32-bb6f875939e0")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:DRV8833PW")
+		(at 83.82 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace21dcb-ce77-4daa-8d10-3c90205e36ae")
+		(property "Reference" "U5"
+			(at 85.9633 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8833PW"
+			(at 85.9633 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
+			(at 83.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "22f6c16d-e46b-431a-990a-2275a14f86c2")
+		)
+		(pin "3"
+			(uuid "33c813f6-246c-4244-881a-7c791aefe173")
+		)
+		(pin "11"
+			(uuid "9f231d16-3397-4f6e-9e0f-514d8ea776ed")
+		)
+		(pin "1"
+			(uuid "91642791-4662-458f-857a-12c6863ae527")
+		)
+		(pin "6"
+			(uuid "a76f5b9a-0edd-4292-a182-afc6cef1a812")
+		)
+		(pin "16"
+			(uuid "32050dd5-b0b8-46b5-bd22-240bfa4235aa")
+		)
+		(pin "15"
+			(uuid "d32d31c9-8dba-4cba-b21b-bb4cdd42c223")
+		)
+		(pin "5"
+			(uuid "773847ce-ced9-475e-8e53-fbea3a00f96f")
+		)
+		(pin "10"
+			(uuid "d633ff48-517d-4771-8f15-21ed9de43239")
+		)
+		(pin "13"
+			(uuid "b474fb81-f4d6-4810-9ed5-522dc49f072f")
+		)
+		(pin "12"
+			(uuid "869f4231-b5f5-4e9f-8e79-4b50be317591")
+		)
+		(pin "8"
+			(uuid "d6be48f7-d9f6-4a65-ba6e-d8c9403702a6")
+		)
+		(pin "4"
+			(uuid "2f42b2bf-e105-41d3-b221-f5e6e854f7b9")
+		)
+		(pin "14"
+			(uuid "08d7d503-ae67-4fdd-83f6-37d8394c084f")
+		)
+		(pin "7"
+			(uuid "4fa37aa5-e829-44e4-adb9-e6e00ae62104")
+		)
+		(pin "2"
+			(uuid "cae9dcbf-95b4-4e99-94ce-a5ed7318a74e")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 176.53 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca294d07-c814-48bf-8bec-73f231f8ce4e")
+		(property "Reference" "C17"
+			(at 176.5363 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01 uF"
+			(at 176.5363 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "361d61d7-20df-47c4-b6c8-dd91aed313cf")
+		)
+		(pin "1"
+			(uuid "946ae534-9306-4691-91fd-7f0f48e02ec8")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 184.15 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cafe5255-8c47-433e-a952-3db9822c5520")
+		(property "Reference" "C19"
+			(at 184.1563 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 184.1563 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b0b56fc-ad2a-425e-8ed5-37b4df663e1d")
+		)
+		(pin "1"
+			(uuid "183436c2-3bfb-4ead-959a-7efe5bb9160e")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 177.8 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f29bc74d-2273-479c-9cc3-d8a96968513f")
+		(property "Reference" "R26"
+			(at 177.8 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.2 ohm"
+			(at 177.8 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.054 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1995ff0f-ec5f-429b-b238-932a7ec5a5f4")
+		)
+		(pin "2"
+			(uuid "8c08f3f5-19ae-4c57-b75e-01e54d54d216")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:DRV8833PW")
+		(at 190.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f95f65e0-837e-4d7c-aec2-db018535bcab")
+		(property "Reference" "U8"
+			(at 192.6433 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8833PW"
+			(at 192.6433 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "0196674f-4f40-48f9-b996-dfbe130e04f4")
+		)
+		(pin "3"
+			(uuid "a48841d8-ff56-4e70-8559-cc7aae61bd58")
+		)
+		(pin "11"
+			(uuid "f54a6055-8177-4f6d-8130-afc207935b24")
+		)
+		(pin "1"
+			(uuid "d657e79e-7017-4382-b6f4-7e08e9a5cedb")
+		)
+		(pin "6"
+			(uuid "58b8cbb8-2d2b-42d9-b38a-d0aa06150916")
+		)
+		(pin "16"
+			(uuid "b43f84d2-97e8-40c3-982e-d1c16121bb8f")
+		)
+		(pin "15"
+			(uuid "484a3527-ccf2-4849-ba4d-e88b5d399dbf")
+		)
+		(pin "5"
+			(uuid "e9e97f56-8fbb-4a53-bc1c-cd162a4b744a")
+		)
+		(pin "10"
+			(uuid "7f63013c-2e24-49dc-abda-9d20947d1107")
+		)
+		(pin "13"
+			(uuid "25b9f4ab-ffdc-4082-b415-ab3be01568c4")
+		)
+		(pin "12"
+			(uuid "f534b938-e219-4a85-81f4-ecb5a610c31f")
+		)
+		(pin "8"
+			(uuid "8512bf3e-4f88-487a-9498-ab0502c6dbea")
+		)
+		(pin "4"
+			(uuid "342445fb-2a11-44ba-b011-b11950c2f15c")
+		)
+		(pin "14"
+			(uuid "000c1a17-c2a1-4b77-a8ab-970f405fe445")
+		)
+		(pin "7"
+			(uuid "a05a1243-7ab1-4e56-970f-f235f63a0172")
+		)
+		(pin "2"
+			(uuid "de8c7650-ca0e-4f4c-897b-9ae8b78435a1")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 69.85 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7b0d72-b00a-4018-b88b-35d62f3a32cd")
+		(property "Reference" "C14"
+			(at 69.8563 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01 uF"
+			(at 69.8563 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43bdac9f-f1d6-4a31-b3c9-36ca5e67965c")
+		)
+		(pin "1"
+			(uuid "b7599963-ae91-4e65-a62a-33ee5c716ae6")
+		)
+		(instances
+			(project "HOPE_ESP32_Drone"
+				(path "/ad7a4295-4205-4554-a4bc-b6e3720d1831/4fbfdd44-0575-4ed2-a507-baad7eb29629/8038747f-77d8-47b8-850b-b5aa1a96fa81"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

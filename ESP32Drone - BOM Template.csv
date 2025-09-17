@@ -1,0 +1,53 @@
+Partner 1 Name:Richard Gomez,Partner 1 Email:20177421Rgomez@berkeley.edu,Partner 2 Name: Emmanuel Matute,Partner 2 Email: lemz4@berkeley.edu,Partner 3 Name: ,Partner 3 Email:,,,,,,
+Instructions,,,,,,,,,,,
+"Fill in the cells with the YELLOW highlight. Do not edit red cells. WE WILL ADJUST THE MULTIPLIER TO ACCOUNT FOR MULTIPLE BOARDS, YOU SHOULD NOT. Fill out the Digi-Key part # OR the Mouser Part #, DO NOT fill out both.  Choose the cheapest distributor that has the part in stock. If the part is not in stock by the time we order parts, there is a risk that we will not purchase it. For any approved Amazon or Adafruit parts, leave Digi-key and Mouser Part# columns blank like the example. For approved Amazon parts, put the ASIN (under the Product Information Section) for Manufacturer Part # in the format ""Amazon - ##########"". For approved Adafruit parts, put the Product ID for Manufacturer Part # in the format ""Adafruit - ####"".",,,,,,,,,,,Total Price for Project
+,,,,,,,,,,,#VALUE!
+"Qty
+(for 1 board)",Manufacturer Part #,Digi-key Part#/SKU,Mouser Part#/SKU,Price/unit ($),Purchase URL,"Reference
+Designator","Description
+(include component value if applicable)",Datasheet Link,Multiple,Total Qty,Total Price/part ($)
+Sensors/Motor,,,,,,,,,,,
+4,739,36-739-ND,,0.28,Link,rubber for 716,,,,,
+4,108990001,1597-1202-ND,,1.95,Link,716 Motors,,Link,,4,
+1,ICM-42670-P,1428-ICM-42670-PCT-ND,,3.66,Link,"(Main Sensor)        Accelerometer, Gyroscope, Temperature, 6 Axis Sensor",,Link,,0,0
+4,SI2302-TP,SI2302-TPMSTR-ND,,0.45,Link,N-Channel Mosfet,,Link,,0,0
+1,BMP390,828-BMP390CT-ND,,3.15,Link,Barometer ( Digital Pressure Sensor),,Link,,0,0
+4,PMEG10020ELRX,1727-2396-2-ND,,0.26,Link,,flyback diode,Link,,0,0
+1,C0603C222K3RACTU,399-C0603C222K3RACTUTR-ND,,0.1,Link,2.2 µFCeramic Capacitor X7R ,,,,0,0
+4,RK73H1JTTD1002F,2019-RK73H1JTTD1002FTR-ND,,$0.10,Link,,Mosfet pull-downs 10k,Link,,0,$0.00
+1,CC0603KRX7R8BB103,311-1360-2-ND,,$0.10,Link,10nF capacitor,,,,,
+3,CC0603KRX7R7BB104,311-1088-2-ND,,$0.08,Link,,capacitor 100nF decoupling,Link,,,
+Power Section:,,,,,,,,,,#VALUE!,#VALUE!
+1,TPS564252DRLR,296-TPS564252DRLRTR-ND,,$0.46,Link,,Buck converter ,Link,,0,$0.00
+1,497-5026-2-ND,USBLC6-2P6,,$0.44,Link,,ESD protection for USB ,Link,,0,$0.00
+1,USB4105-GF-A,2073-USB4105-GF-ATR-ND,,$0.78,Link,,USB-C Receptacle,Link,,0,$0.00
+1,SMF5.0AQ-TP,353-SMF5.0AQ-TPTR-ND,,$0.11,Link,,TVS protection for VBUS,Link,,0,$0.00
+2,RK73H1JTTD1002F,2019-RK73H1JTTD1002FTR-ND,,$0.10,Link,,Feedback resistor 10k and PG indicator ,,,0,$0.00
+1,RMCF0603FT45K3,RMCF0603FT45K3TR-ND,,$0.10,Link,,Feedback resistor 45.3k,,,0,$0.00
+5,CC0603KRX7R7BB104,311-1088-2-ND,,$0.08,Link,,capacitor 100nF,,,0,$0.00
+4,CL10A106MP8NNNC,1276-1871-2-ND,,$0.09,Link,,cap 10uF,,,0,$0.00
+1,GRM188R60J476ME01D,490-GRM188R60J476ME01DTR-ND,,$0.36,Link,,cap 47uF,,,0,$0.00
+2,RC0603FR-075K1L,311-5.10KHRTR-ND,,$0.10,Link,,USB CC resistors 5.1k,,,0,$0.00
+1,SRP3212-3R3M,118-SRP3212-3R3MTR-ND,,$0.18,Link,,Inductor ,,,0,$0.00
+1,RC0603FR-07210RL,311-210HRCT-ND,,$0.10,Link,,210 ohm resistor ,,,,
+1,LTST-C190GKT,160-1183-2-ND,,$0.14,Link,,green led,Link,,,
+Lipo-Charger,,,,,,,,,,,
+1,BQ25185DLHR,296-BQ25185DLHRTR-ND,,$1.80,Link,,lipo batt. charger 1A ,Link,,0,$0.00
+2,CL10B105KA8NNNC,1276-1184-2-ND,,$0.06,Link,,1uf cap,,,0,$0.00
+1,CL31B106KAHNNNE,1276-1804-2-ND,,$0.12,Link,,10uf cap,,,,
+3,RK73H1JTTD1002F,2019-RK73H1JTTD1002FTR-ND,,$0.10,Link,,pullups/pulldowns,Link,,,
+1,RK73H1JTTD1302F,2019-RK73H1JTTD1302FTR-ND,,$0.10,Link,,ILIM resistor 13k,Link,,,
+1,AC0603FR-0718KL,YAG3570TR-ND,,$0.10,Link,,ILIM resistor 18k,Link,,,
+1,ERA-3AEB202V,P2.0KDBTR-ND,,$0.10,Link,,2k ISET resistor,Link,,,
+MCU:,,,,,,,,,,#VALUE!,#VALUE!
+,ESP32-S3-WROOM-1-N8,ESP32-S3-WROOM-1-N8,,5.49,Link,,esp32,,,0,0
+3,CC0603KRX7R7BB104,311-1088-2-ND,,$0.08,Link,,capacitor 100nF decoupling/switch debounce,,,0,$0.00
+1,CL10A226MP8NUNE,CL10A226MP8NUNE,,$0.10,Link,,22uF,,,0,$0.00
+2,SKRPACE010,4809-SKRPACE010TR-ND,,$0.11,Link,,switch for en pin and boot,,,0,$0.00
+1,ERJ-3EKF1003V,P100KHTR-ND,,$0.10,Link,,100k for voltage sense ,,,0,$0.00
+1,RT0603BRD0750KL,13-RT0603BRD0750KLTR-ND,,$0.14,Link,,50k for voltage sense,,,0,$0.00
+2,RK73H1JTTD1002F,2019-RK73H1JTTD1002FTR-ND,,$0.10,Link,,10k pullup for en and boot,,,0,$0.00
+1,CLV1L-FKB-CJ1N1E1BB7B3B3,90-CLV1L-FKB-CJ1N1E1BB7B3B3TR-ND,,$0.43,Link,,"debug LEDS, status indication etc",,,0,$0.00
+3,ERA-3AEB121V,P120DBTR-ND,,$0.10,Link,,Led resistor 120ohm,,,0,$0.00
+Battery ,,,,,,,,,,#VALUE!,#VALUE!
+1,,,,,,,,,,0,0
