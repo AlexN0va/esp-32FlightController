@@ -5,9 +5,9 @@ This project integrates **wireless control, power management, and a full sensing
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🧠 Core Controller
+### Core Controller
 
 * **ESP32-S3** microcontroller with **WiFi + Bluetooth** for remote control and telemetry.
 * **USB-C** interface for programming and charging.
@@ -18,27 +18,27 @@ This project integrates **wireless control, power management, and a full sensing
 * Built-in **WiFi/Bluetooth** communication.
 * Custom real-time control protocol.
 
-### 🔋 Power Management
+### Power Management
 
 * **350mAh single-cell LiPo battery (1S)**.
 * **Integrated charging circuitry** on PCB.
 * **TPS5642 buck converter** regulates 3.7–4.2V battery input down to 3.3V.
 * **Battery monitoring system** with undervoltage protection for safe operation.
 
-### ⚙️ Motor Control
+### Motor Control
 
 * **Four brushed DC motors** driven via **low RDS-on MOSFETs**.
 * **PWM control** for smooth throttle response.
 * Optimized **flyback diode placement** for reduced EMI and motor protection.
 
-### 📊 Sensing Suite
+### Sensing Suite
 
 * **BMP390 Barometer** – altitude measurements with ±0.5m accuracy.
 * **ICM-42670-P 6-axis IMU** – accelerometer + gyroscope.
 * **SPI communication** for fast and reliable sensor data exchange.
 * **Sensor fusion algorithm** for stabilization.
 
-### 📐 Compact Design
+### Compact Design
 
 * **3.2” x 3.2” arms** with a **central PCB hub**.
 * **Single-board design** for simplified manufacturing and assembly.
@@ -46,7 +46,7 @@ This project integrates **wireless control, power management, and a full sensing
 
 ---
 
-## ✅ Achieved Milestones
+## Achieved Milestones
 
 * Full system integration on a **single PCB**.
 * Reliable flight stabilization using **sensor fusion**.
@@ -54,7 +54,7 @@ This project integrates **wireless control, power management, and a full sensing
 
 ---
 
-## 📷 Images & Documentation
+## Images 
 
 ### Final Drone Assembly
 
