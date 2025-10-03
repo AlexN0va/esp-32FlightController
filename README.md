@@ -56,13 +56,10 @@ This project integrates **wireless control, power management, and a full sensing
 
 ## Images 
 
-### Final Drone Assembly
+### Final Drone Assembly & PCB Layout & Schematic
 
-*(Insert images of the fully assembled drone with wings/propellers here)*
+https://docs.google.com/presentation/d/1kFseCS2gQPJ-yQV6XV5w5bWRBxy75CzPxFKIJwM_sh4/edit?usp=sharing
 
-### PCB Layout & Schematic
-
-*(Insert high-resolution images/screenshots of the PCB layout and schematic here)*
 
 ---
 
